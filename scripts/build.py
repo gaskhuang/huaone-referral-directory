@@ -76,8 +76,9 @@ def main():
         "updated": datetime.date.today().isoformat(),
         "total": len(out),
         "complete": sum(1 for m in out if m["complete"]),
+        # 同票時用名稱排序，否則每次跑出來的順序不同，會產生無意義的 diff
         "categories": sorted({m["category"] for m in out},
-                             key=lambda c: -sum(1 for m in out if m["category"] == c)),
+                             key=lambda c: (-sum(1 for m in out if m["category"] == c), c)),
         "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
         "lightSource": lights.get("source", ""),
         "lightPeriod": lights.get("period", ""),

@@ -5,9 +5,9 @@
 script：GT=70 綠、YT=50 黃、RT=30 紅、其餘黑。這裡照抄同一套規則，不自行加工。
 榜上的姓名是「中文名+英文名」黏在一起（黃俊凱Gask huang），所以用前綴比對。
 """
-import json, re, sys, urllib.request
+import datetime, json, re, sys, urllib.error, urllib.request
 
-SRC = "https://bninwb.autolab.cloud/202607/me.html"
+BASE = "https://bninwb.autolab.cloud/{ym}/me.html"
 CHAPTER = "華one"
 GT, YT, RT = 70, 50, 30
 
@@ -28,6 +28,20 @@ def fetch(url):
         return r.read().decode("utf-8", "replace")
 
 
+def latest_report(back=8):
+    """報告網址是 /YYYYMM/me.html，從本月往前找第一份存在的，避免月份寫死。"""
+    d = datetime.date.today().replace(day=1)
+    for _ in range(back):
+        url = BASE.format(ym=d.strftime("%Y%m"))
+        try:
+            return url, fetch(url)
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+        d = (d - datetime.timedelta(days=1)).replace(day=1)
+    sys.exit(f"往前找 {back} 個月都沒有紅綠燈報告，來源可能搬家了")
+
+
 def parse(html):
     m = re.search(r"var D=(\[.*?\]);", html, re.S)
     if not m:
@@ -45,7 +59,8 @@ def norm(s):
 
 
 def main():
-    html = fetch(SRC)
+    SRC, html = latest_report()
+    print(f"使用報告 {SRC}")
     D = parse(html)
     rows = [x for x in D if x["c"] == CHAPTER]
     members = json.load(open("data/members.json", encoding="utf-8"))

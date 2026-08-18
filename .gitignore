@@ -1,6 +1,8 @@
 # Google Slides 原始 JSON（61MB，可用 scripts/fetch.sh 重抓）
 data/raw/
 data/files.ndjson
+data/members_full.tsv
+data/mtimes.json
 data/fetch_errors.log
 # 紅綠燈原始資料含分數與排名，僅供本機比對用
 data/lights.json
