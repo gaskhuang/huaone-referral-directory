@@ -174,7 +174,7 @@ a { color: inherit; }
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   margin-bottom: 48px;
   background: var(--line);
@@ -612,8 +612,8 @@ table.directory { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .wrap { padding: 0 16px; }
   .nav { display: none; }
   .page { padding: 40px 0 64px; }
-  .stats { grid-template-columns: repeat(2, 1fr); }
-  .stat { padding: 18px 18px; }
+  .stats { grid-template-columns: repeat(3, 1fr); }
+  .stat { padding: 16px 12px; }
   .stat-num { font-size: 30px; }
   .search input { font-size: 16px; }
 

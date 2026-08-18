@@ -77,7 +77,6 @@
   document.getElementById("statTotal").textContent = META.total || MEMBERS.length;
   document.getElementById("statComplete").textContent = META.complete || 0;
   document.getElementById("statCats").textContent = (META.categories || []).length;
-  document.getElementById("statUpdated").textContent = (META.updated || "").slice(5).replace("-", "/");
   document.getElementById("footMeta").textContent =
     "資料同步自分會簡報雲端資料夾 · 最後更新 " + (META.updated || "");
 
