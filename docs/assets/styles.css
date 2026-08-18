@@ -687,3 +687,57 @@ table.directory { width: 100%; border-collapse: collapse; table-layout: fixed; }
   .bullet-box p { font-size: 15px; }
   .want-pill { font-size: 16px; }
 }
+
+/* ---------- 紅綠燈燈號 ---------- */
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: 1px;
+  flex: none;
+}
+
+.dot-green  { background: #16A34A; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.13); }
+.dot-yellow { background: #EAB308; box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.16); }
+.dot-red    { background: #DC2626; box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.13); }
+.dot-black  { background: #3F3F46; box-shadow: 0 0 0 3px rgba(63, 63, 70, 0.12); }
+.dot-none   { background: #fff; border: 1.5px dashed #cfcfcf; box-shadow: none; }
+
+.light-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.light-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--ink-2);
+}
+
+.light-badge b { margin-left: 8px; font-size: 17px; font-weight: 900; }
+.light-badge small { font-size: 12px; font-weight: 600; opacity: 0.6; }
+
+.light-green  { background: rgba(22, 163, 74, 0.08);  border-color: rgba(22, 163, 74, 0.28);  color: #15803D; }
+.light-yellow { background: rgba(234, 179, 8, 0.10);  border-color: rgba(234, 179, 8, 0.32);  color: #A16207; }
+.light-red    { background: rgba(220, 38, 38, 0.07);  border-color: rgba(220, 38, 38, 0.26);  color: #B91C1C; }
+.light-black  { background: rgba(63, 63, 70, 0.06);   border-color: rgba(63, 63, 70, 0.26);   color: #3F3F46; }
+.light-none   { border-style: dashed; color: var(--ink-4); font-weight: 600; }
+
+.light-note { font-size: 13px; font-weight: 600; color: var(--ink-3); }
+.light-note.up { color: #15803D; }
+.light-note.down { color: #B91C1C; }

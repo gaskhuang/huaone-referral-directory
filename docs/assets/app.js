@@ -32,6 +32,34 @@
 
   MEMBERS.forEach(function (m) { m._hay = haystack(m); });
 
+  /* ---------- 紅綠燈燈號 ---------- */
+
+  var LIGHT = {
+    green:  { zh: "綠燈", desc: "70 分以上" },
+    yellow: { zh: "黃燈", desc: "50–69 分" },
+    red:    { zh: "紅燈", desc: "30–49 分" },
+    black:  { zh: "黑燈", desc: "低於 30 分" }
+  };
+
+  function lightDot(m) {
+    if (!m.light) {
+      return '<span class="dot dot-none" title="紅綠燈榜無此人資料"></span>';
+    }
+    var L = LIGHT[m.light];
+    return '<span class="dot dot-' + m.light + '" title="' +
+      esc(L.zh + "（" + L.desc + "）") + '"></span>';
+  }
+
+  function lightBadge(m) {
+    if (!m.light) {
+      return '<span class="light-badge light-none">紅綠燈榜無資料</span>';
+    }
+    var L = LIGHT[m.light];
+    return '<span class="light-badge light-' + m.light + '">' +
+      '<span class="dot dot-' + m.light + '"></span>' + L.zh + "</span>" +
+      '<span class="light-note">' + L.desc + "</span>";
+  }
+
   /* ---------- 「正在找誰」：want → dream → ideal → basic ---------- */
 
   function splitToItems(text) {
@@ -144,6 +172,7 @@
 
   function detailHtml(m) {
     return '<tr class="row-detail"><td colspan="6"><div class="detail-inner">' +
+      '<div class="light-row">' + lightBadge(m) + "</div>" +
       '<div class="detail-grid">' +
         "<div>" +
           '<div class="panel-title">' + ICON_SPARK + " 他希望你幫忙引薦這些人</div>" +
@@ -177,7 +206,7 @@
 
     return '<tr class="row-main" data-key="' + esc(key(m)) + '">' +
       '<td class="cell-no">' + esc(m.no) + "</td>" +
-      '<td class="cell-name">' + esc(m.name) + nick + "</td>" +
+      '<td class="cell-name">' + lightDot(m) + esc(m.name) + nick + "</td>" +
       '<td class="cell-biz">' + trade + company + "</td>" +
       '<td class="cell-need">' + needsHtml(m) + "</td>" +
       '<td class="cell-cat">' + esc(m.category) + "</td>" +

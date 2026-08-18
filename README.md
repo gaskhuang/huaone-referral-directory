@@ -16,7 +16,8 @@ docs/            # 網站本體（GitHub Pages 直接吃這個資料夾）
 scripts/
   fetch.sh       # 從 Drive 抓 118 份成員簡報 → data/raw/*.json
   parse.py       # 版面座標解析 → data/members.json
-  build.py       # 加上產業分類 → docs/data/members.js
+  lights.py      # 抓區紅綠燈報告比對燈號 → data/lights.json（未進版控）
+  build.py       # 併上產業分類與燈號 → docs/data/members.js
 data/
   members.tsv    # 檔案 ID ↔ 簡報標題
   members.json   # 解析後的原始欄位（含 leftover 便於除錯）
@@ -28,7 +29,7 @@ data/
 需要先安裝並登入 [`gws`](https://github.com/) CLI（Google Workspace CLI）與 `jq`。
 
 ```bash
-./scripts/fetch.sh && python3 scripts/parse.py && python3 scripts/build.py
+./scripts/fetch.sh && python3 scripts/parse.py && python3 scripts/lights.py && python3 scripts/build.py
 ```
 
 `fetch.sh` 會跳過已抓過的檔案，要強制重抓就先清掉 `data/raw/`。
@@ -55,3 +56,17 @@ python3 -m http.server 4173 --directory docs
 
 `build.py` 依「專業別 → 公司名 → 我的專業」的順序做關鍵字比對，推導出 12 個產業分類供篩選使用。
 **這是為了方便篩選而推導的欄位，不是分會的正式分組。** 分類規則在 `scripts/build.py` 的 `CATEGORIES`。
+
+## 紅綠燈燈號
+
+姓名前的圓點取自 [BNI 新北市西B區紅綠燈報告](https://bninwb.autolab.cloud/202607/me.html)。
+該頁把全區 1279 位的資料以 `var D=[...]` 內嵌在 HTML 裡，燈號門檻也寫在同一支 script
+（70 分綠、50 分黃、30 分紅，其餘黑），`lights.py` 沿用同一套規則，不自行加工。
+
+榜上姓名是「中文名+英文名」黏在一起（`黃俊凱Gask huang`），所以用中文前綴比對，
+118 位中比對到 112 位。比對不到的顯示空心圓點，不做模糊猜測——`陳建豪`／榜上`陳健豪`
+只差一個字，猜錯就是把別人的績效掛到他頭上。
+
+**原報告載明「僅供區域及分會領導團隊參考，請勿對外散布」，所以網站只輸出燈號顏色，
+個人分數與全區排名不寫進 `docs/data/members.js`。** 含分數的 `data/lights.json`
+已列入 `.gitignore`。

@@ -35,11 +35,22 @@ def categorize(m):
     return "其他"
 
 
+def load_lights():
+    """scripts/lights.py 產生的燈號，沒跑過就當作沒有資料"""
+    try:
+        return json.load(open("data/lights.json", encoding="utf-8"))
+    except FileNotFoundError:
+        return {"lights": {}, "period": "", "source": "", "matched": 0}
+
+
 def main():
     members = json.load(open("data/members.json", encoding="utf-8"))
+    lights = load_lights()
+    LT = lights.get("lights", {})
     out = []
     for m in members:
         t = m["tiers"]
+        lt = LT.get(m["no"] + "-" + m["name"])
         out.append({
             "no": m["no"],
             "name": m["name"],
@@ -55,6 +66,8 @@ def main():
             "expertise": m["expertise"],
             "slideUrl": m["slideUrl"],
             "complete": bool(t["basic"] or t["ideal"] or t["dream"]),
+            # 只帶顏色。來源報告載明僅供領導團隊參考，分數與排名不對外輸出。
+            "light": (lt or {}).get("light"),
         })
     out.sort(key=lambda m: (m["no"], m["name"]))
 
@@ -66,6 +79,9 @@ def main():
         "categories": sorted({m["category"] for m in out},
                              key=lambda c: -sum(1 for m in out if m["category"] == c)),
         "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
+        "lightSource": lights.get("source", ""),
+        "lightPeriod": lights.get("period", ""),
+        "lightMatched": sum(1 for m in out if m["light"]),
     }
     with open("docs/data/members.js", "w", encoding="utf-8") as f:
         f.write("window.HUAONE_META = ")
@@ -77,7 +93,8 @@ def main():
     counts = {}
     for m in out:
         counts[m["category"]] = counts.get(m["category"], 0) + 1
-    print(f"built docs/data/members.js — {len(out)} 位成員")
+    print(f"built docs/data/members.js — {len(out)} 位成員"
+          f"（含燈號 {meta['lightMatched']} 位）")
     for c, n in sorted(counts.items(), key=lambda kv: -kv[1]):
         print(f"  {c}: {n}")
 

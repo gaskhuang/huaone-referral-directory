@@ -2,4 +2,7 @@
 data/raw/
 data/files.ndjson
 data/fetch_errors.log
+# 紅綠燈原始資料含分數與排名，僅供本機比對用
+data/lights.json
+
 .DS_Store

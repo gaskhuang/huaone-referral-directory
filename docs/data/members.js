@@ -1,5 +1,5 @@
 window.HUAONE_META = {
- "updated": "2026-08-18",
+ "updated": "2026-08-19",
  "total": 118,
  "complete": 114,
  "categories": [
@@ -16,7 +16,10 @@ window.HUAONE_META = {
   "美容美業",
   "其他"
  ],
- "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE"
+ "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
+ "lightSource": "https://bninwb.autolab.cloud/202607/me.html",
+ "lightPeriod": "2026-02-01 - 2026-07-31 (6個月)",
+ "lightMatched": 112
 };
 window.HUAONE_MEMBERS = [
  {
@@ -40,7 +43,8 @@ window.HUAONE_MEMBERS = [
    "模擬佈置"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1DI55xtHaEMXRyDjaFa6BlFc3iUI_TgYo-6tQAvRObmg/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "002",
@@ -69,7 +73,8 @@ window.HUAONE_MEMBERS = [
    "多國倉儲：台灣、日本、馬來西亞、泰國、奧地利、美國，可做一件代發"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1J4UYqHwO6Ektdlxreq_hiCepeKE5hyxGKKlBwEs1F9A/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "003",
@@ -94,7 +99,8 @@ window.HUAONE_MEMBERS = [
    "13 年品牌行銷經驗：曾與 TSMC、Samsung、ASUS、LINE 等國際品牌合作創意視覺，擁有豐富的 2D/3D 動態廣告、影片拍攝與設計經驗。榮獲金點設計獎與德國 iF Design 等設計國際獎項。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1blfIqF-qRrCTqJ5kkiDtQYFXJ1CLMThIOK4Sch203DY/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "004",
@@ -122,7 +128,8 @@ window.HUAONE_MEMBERS = [
    "市價1,490元/個"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1KCSa5VUT4xotmVkjIKYeY6mz9NpbwBKDno1JZviBlNk/edit",
-  "complete": false
+  "complete": false,
+  "light": "black"
  },
  {
   "no": "006",
@@ -151,7 +158,8 @@ window.HUAONE_MEMBERS = [
    "———————————————————————————————"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1YsvYl6zJc7rV2A8kQm5YuQSK_PWsgro-0GGzijvFvMw/edit",
-  "complete": false
+  "complete": false,
+  "light": "red"
  },
  {
   "no": "008",
@@ -177,7 +185,8 @@ window.HUAONE_MEMBERS = [
    "2023年「香港環球葡萄酒與烈酒大賽CWSA」雙金雙銀"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1MEcj35BQwJpTvbNdOER1ZYAqohBA98gUXolniGAwlF8/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "016",
@@ -205,7 +214,8 @@ window.HUAONE_MEMBERS = [
    "新北市健身房公會理事"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/19f_3Al1EubdhgoYzx8tCGLbEKJLXJtCJjMHNn0vd6nE/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "023",
@@ -234,7 +244,8 @@ window.HUAONE_MEMBERS = [
    "那就來找我們做社群吧!"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/11tvKsMmMPtBiuv8GFtmPtpwLADZ53dma3dvqgCAXYdg/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "025",
@@ -258,7 +269,8 @@ window.HUAONE_MEMBERS = [
    "客製化的行程安排及商務洽公，安全、專業、負責"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1s8SyYn04cbpgwl2lR-9FDLoOek4FFia71VnQlFysb2Y/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "044",
@@ -284,7 +296,8 @@ window.HUAONE_MEMBERS = [
    "個人品牌網站、企業形象官網、購物車網站"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1mSwofFMZEVj0o0lEZ76rQhU2QZqQudOZiqOBF0yeNqs/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "053",
@@ -315,7 +328,8 @@ window.HUAONE_MEMBERS = [
    "目於透過海外連線、直播選品、自媒體經營重建事業中。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/13jxKqHByj5Hxg-theLBivLoBRlvoP2AtedanpJIi5SA/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "060",
@@ -341,7 +355,8 @@ window.HUAONE_MEMBERS = [
    "致力推廣臺灣在地農產加工品，結合品牌與設計"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JrFaNNd_yPKOe2ZYpbn0BYY-EO9f8GqOR2kB8tLUVXM/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "069",
@@ -368,7 +383,8 @@ window.HUAONE_MEMBERS = [
    "數量將近10萬顆包（平均單價$5000）"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1pMU7C7T0bSloCPRWyPofams2s6Bq2kOTdcVIOiK9Crs/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "071",
@@ -398,7 +414,8 @@ window.HUAONE_MEMBERS = [
    "讓你一秒飛到地中海🍾"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1BKC-L2hRQreGozyggNNw77x6S5mSiHRLzZq1CNpiPD8/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "071",
@@ -425,7 +442,8 @@ window.HUAONE_MEMBERS = [
    "地中海連鎖餐飲TOASTERiA CAFE合夥人"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1BKC-L2hRQreGozyggNNw77x6S5mSiHRLzZq1CNpiPD8/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "074",
@@ -453,7 +471,8 @@ window.HUAONE_MEMBERS = [
    "肩頸腰背痛/運動傷害/針傷科治療"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/15Y0D1R-I09hW2WYUaqBi72PyKc1xgHWNkaaamYA9L_4/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "078",
@@ -480,7 +499,8 @@ window.HUAONE_MEMBERS = [
    "隱形矯正total solution"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ggDru8moYqlgG2r3nAKRRMC_emhZ9WYlmsBUv47VQe0/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "081",
@@ -510,7 +530,8 @@ window.HUAONE_MEMBERS = [
    "國發基金特別股，第一波登上創櫃板，股票代號：7413"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1v4xl4dNbP3S6VkltamYY2Bu2u4z6UhfepojSoPIQ-p4/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "083",
@@ -539,7 +560,8 @@ window.HUAONE_MEMBERS = [
    "本週進度：Lite MES完成上架-雲市集工業館AI工具庫"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JIxYu5HFSphLJmkct22pN6KuVmUhfI7TLR1f7Y_0NnY/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "091",
@@ -568,7 +590,8 @@ window.HUAONE_MEMBERS = [
    "精準達成人生目標"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1iaT2AOcs-FbJU08DH4LNMFgWFibIqYQmk5JOifvXfFk/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "093",
@@ -596,7 +619,8 @@ window.HUAONE_MEMBERS = [
    "手機自助回收機台- 9月預計在北部設立30台機器,每月回收量約2萬台二手手機。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ku-zX7rvQ-mU67Cx-yHcvVZjZW7yzpG9kCmQ7udFnuk/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "094",
@@ -624,7 +648,8 @@ window.HUAONE_MEMBERS = [
    "客製化的保險規劃，每位客戶的保險都是獨一無二的內容， 不強迫推銷"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1NNcbHOCbP2dSj7ZMTDBtcvRszqJ4ahTQ8hdCXHHHVoA/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "116",
@@ -654,7 +679,8 @@ window.HUAONE_MEMBERS = [
    "曾擔任新生國小家長會秘書長/EQ志工隊長"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1DFWDkyPNDfdeuNW6dzaqP6z9afXP8KQ4XYfqCLghESw/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "118",
@@ -682,7 +708,8 @@ window.HUAONE_MEMBERS = [
    "經手過百間企業，橫跨餐飲、食品、美妝保養、保健、銀髮、農業、傳產等，目前正協助伊莎貝爾、大成食品、龍鳳食品、嘉丹妮爾、易而善等品牌整合規劃。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1xJAnFEL0gTM7LaRS2_xv9Y2y5JjE6y8hKIM3Odcudb8/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  },
  {
   "no": "120",
@@ -709,7 +736,8 @@ window.HUAONE_MEMBERS = [
    "環境部「低碳永續家園綠能屋頂種子」規劃師"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1EdFu8SQO5aguCBt5oxKLlIQoZWLcuUlCvhBLEUPIQHs/edit",
-  "complete": false
+  "complete": false,
+  "light": "black"
  },
  {
   "no": "124",
@@ -735,7 +763,8 @@ window.HUAONE_MEMBERS = [
    "取得GoogleTV授權的台灣品牌"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1gXZJ4-TUu6OWhh5n_F102uWOyjgeQoAfkd6p0veW-Bc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "128",
@@ -763,7 +792,8 @@ window.HUAONE_MEMBERS = [
    "服務：AI人才報告，幫助績效成長137%"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1A5Rqxw4TR6xjLueOgoIwoKhBh-aCFxeb14KgA06I-q4/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "130",
@@ -791,7 +821,8 @@ window.HUAONE_MEMBERS = [
    "印度創業班烘焙課程老師"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1C42kADUv6LIhVIroGaWG0o4Nxf4JvPVL3GoO1kMzJBY/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "131",
@@ -822,7 +853,8 @@ window.HUAONE_MEMBERS = [
    "服務客戶類型廣泛"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1xHiImUhowXBMEbtJ1AfSldxWgRWw0cZeUJ20B0uXyxU/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "133",
@@ -854,7 +886,8 @@ window.HUAONE_MEMBERS = [
    "質感且豐富的產品線：罐頭、飼料、貓砂、凍乾零食、保健品等"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1aWmnRuA6CEaJ_1au-N9x1gGJAqOaSCpo9Bg1kQua7YI/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "146",
@@ -882,7 +915,8 @@ window.HUAONE_MEMBERS = [
    "工程實績：福容大飯店、城市商旅、World GYM、日月光半導體、台康生技、好菇道、鼎泰豐、桃園捷運、全聯超市物流中心...。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1RAA-0nRy2bGnl5pXPcxdZTuRaF0H58pJEZcqe2NU3wE/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "151",
@@ -912,7 +946,8 @@ window.HUAONE_MEMBERS = [
    "儀錶板，看到 記得看醫生"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Ci161omddUCecFMZkWBCpmLTUHqsFMliDGAN1uT026E/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "166",
@@ -938,7 +973,8 @@ window.HUAONE_MEMBERS = [
    "蒟蒻麵代工年銷50萬包"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1YfVbdCzs6zoIPG4irxdrKBu-UUzOVORhzsVJTHcyvRs/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "168",
@@ -964,7 +1000,8 @@ window.HUAONE_MEMBERS = [
    "代理進口純素起司及無酒精啤酒"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1tWi3RV6nAi_DBQzYFtCi0Y0pBKTuVoAsW-fHQF42eL8/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "173",
@@ -987,7 +1024,8 @@ window.HUAONE_MEMBERS = [
    "泡麵、肉乾、乾拌麵等熱銷商品取得FDA、DUNS認證"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1YD4Le-wi-mjKhZA53sU9SY-GO7xcEKYFQpizZxrrM8g/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "174",
@@ -1014,7 +1052,8 @@ window.HUAONE_MEMBERS = [
    "商品外銷至 泰國 、 香港。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Vvc58AWeXVIEK4AVNBjC-g7wyNbjDyYjZnMSOJv6o2M/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "175",
@@ -1041,7 +1080,8 @@ window.HUAONE_MEMBERS = [
    "TIPS-USA 大中華區顧問"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1c7uZ-ZAhaf6tV6HvYhbz1dSOl7T8364-W3T-ztk83fE/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "186",
@@ -1069,7 +1109,8 @@ window.HUAONE_MEMBERS = [
    "壽險"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Sa1mhG8mJ1-wpJB38JqNBzZrxf6F7mbb6c_CfxBxpVQ/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "187",
@@ -1096,7 +1137,8 @@ window.HUAONE_MEMBERS = [
    "曾支援超過4,735名選手的比賽。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1T2oWIU2G0pXdMX59KJXMq0Vk6HAGRd73nG4zDvmzeGc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "189",
@@ -1125,7 +1167,8 @@ window.HUAONE_MEMBERS = [
    "歡迎有興趣的快來找我121。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Ip-FJmysNnQ8I8eyBU0zNblZfTKpo_1SZHP8kJwKqQU/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "190",
@@ -1154,7 +1197,8 @@ window.HUAONE_MEMBERS = [
    "烘焙相關的短影音拍攝"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1t8vxKGeZ55CFBs0Qbe7KQAZghzgjtAq6jGxC9wWF1u8/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "192",
@@ -1180,7 +1224,8 @@ window.HUAONE_MEMBERS = [
    "如Tesla AI, Ebay; Verizon, NTT DATA, 中華電信."
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1oMTb_HM6rCio8LB-BwtI1fR_qzVqWiZktIFfu26lSqc/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "195",
@@ -1205,7 +1250,8 @@ window.HUAONE_MEMBERS = [
    "搜尋 [台中鞋墊OEM] 馬上看如何壟斷SEO"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1PjWwkGS84XsUKsTT5Vdh9muuLHK7EiVkIoLbE-bB8zk/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "196",
@@ -1236,7 +1282,8 @@ window.HUAONE_MEMBERS = [
    "LINE ID : royiray"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1G77b5tfdgf5y9drUWjDJiSD8W0o9j0OUoyLa9H52GwE/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "197",
@@ -1260,7 +1307,8 @@ window.HUAONE_MEMBERS = [
    "國內連鎖通路、團購、直播主等販售通路"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1FsB1ggxQge3xDtmrdLu-08o3oZgQf1fePmXXZEHw5Yc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "203",
@@ -1285,7 +1333,8 @@ window.HUAONE_MEMBERS = [
    "產品發表影片、尾牙&家庭日活動影片。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1H-oOl-0PZ6bXKl__BsLJXvrFyyrSp-iNDuHzWFE-LrY/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  },
  {
   "no": "204",
@@ -1313,7 +1362,8 @@ window.HUAONE_MEMBERS = [
    "跨足攝影棚、披薩工廠、系統櫃工廠、不動產買賣投資"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Yt9jv9VIaZUnJ8S2mQWsQ-B2HDw8r7qUqJGC0p6Jwvk/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "208",
@@ -1340,7 +1390,8 @@ window.HUAONE_MEMBERS = [
    "直播/團購/TIKTOK 線上全渠道經營/年收破億"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1BilMW4UnS1ftdHknwND9RJsif_tsF_oU3FbEc8tNeHA/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "209",
@@ -1368,7 +1419,8 @@ window.HUAONE_MEMBERS = [
    "商業行為法律風險評估"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1sP0a5oktTft6LbT0a4QSlx193qxLo3vAUIwZqt6z3eA/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "212",
@@ -1397,7 +1449,8 @@ window.HUAONE_MEMBERS = [
    "第6屆好食好事加速器、第13屆AAMA加速器團隊"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1mOQrGmPmox0zxgZGj6b_2E99E7WmcwauVPpu9NhNpH0/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "216",
@@ -1423,7 +1476,8 @@ window.HUAONE_MEMBERS = [
    "橄欖油檸檬汁真的讓我皮膚變好了"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1XoBhtBVZW4Spc_2FBptJvbO7-9alHxLrh8pARIB0GWk/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "218",
@@ -1453,7 +1507,8 @@ window.HUAONE_MEMBERS = [
    "店洽詢"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1PaT4uQV8izfg1Zar9utABAf3UFpM9bv9Iendww5R4UQ/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "221",
@@ -1478,7 +1533,8 @@ window.HUAONE_MEMBERS = [
    "饗賓集團果然匯 - 唯一指定長期合作天具廠商"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JnQdxwqtHV0BroEFXabKPruQJJD97nqzV3M6rXp3Ywo/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "222",
@@ -1504,7 +1560,8 @@ window.HUAONE_MEMBERS = [
    "私人銀行"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JG37owsGp0mb8MicckNi0svitbZnR1-pXj38j-M3ZnM/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "225",
@@ -1532,7 +1589,8 @@ window.HUAONE_MEMBERS = [
    "蔬食外燴、buffet、調理包、小型聚餐下午茶"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1HF9FvPyjSI72Yagg0mq0UCHjA8oDGDomFgz66nGE6nY/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "241",
@@ -1563,7 +1621,8 @@ window.HUAONE_MEMBERS = [
    "客户:百事可樂、聯合利華、北京同仁堂等快消、倍轻松、柏星龙、高科技、电子科技、游戲、建行、招行、LAMY、WURTH、上海大众f汽车等行業…"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1dRZta4GReHmydlegXNM-MWuoElH2Yt29pSchj42t1yk/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  },
  {
   "no": "242",
@@ -1590,7 +1649,8 @@ window.HUAONE_MEMBERS = [
    "演出經歷逾百場，跨足兩岸三地、日本、歐洲大型藝術活動"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JmieTca5xFMnSd86Xpy7o2ZbEYjIg85n7AhKJIhLTgI/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "249",
@@ -1616,7 +1676,8 @@ window.HUAONE_MEMBERS = [
    "代表客戶：全聯、家樂福、得來素、達美樂pizza"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JkKwhpSxC40q4IyhOPA6VMkgoA3GbBIAAa-kjsBEF-E/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "259",
@@ -1641,7 +1702,8 @@ window.HUAONE_MEMBERS = [
    "X"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/18aWPOej9Gj9eLGU0YK8Pf1gvt3ICAYNA30CaShyGpws/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "266",
@@ -1669,7 +1731,8 @@ window.HUAONE_MEMBERS = [
    "所有醬都可以 OEM/ODM/貼牌"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1E3nnXthpUKMMeurA4z4r_eI5EytWUPiDKkEm1VmyRN8/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "271",
@@ -1698,7 +1761,8 @@ window.HUAONE_MEMBERS = [
    "中彰雲投嘉提供快速的配送服務"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1n9ipWGx83_OSzi_Ksfy7vGCddb6LxzkHCyEZV5NWxAI/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "279",
@@ -1724,7 +1788,8 @@ window.HUAONE_MEMBERS = [
    "台灣南部食品、生活百貨經銷"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1GcciW32v9j0epYMTHwe1qVZP54ni5N93d3qU7aLbnog/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "283",
@@ -1753,7 +1818,8 @@ window.HUAONE_MEMBERS = [
    "———————————————————————————————"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1hhNI2KoGIHTNab0VfWGdXUo6fc5NltNFFQv5i8sB8e4/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "285",
@@ -1783,7 +1849,8 @@ window.HUAONE_MEMBERS = [
    "各產業活動統籌執行：典禮儀式 / 尾牙春酒 / 產業展覽 / 文創市集"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1p2QTKEYdfLQ_ovmzjeDITOrtkJ_vXZwXogctaKJi3l4/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "286",
@@ -1813,7 +1880,8 @@ window.HUAONE_MEMBERS = [
    "《本週看圖說故事》"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/17p1g8iljKk0tw3huSiNVmhgZLOqlSTxGqQtHghDlAi8/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "291",
@@ -1837,7 +1905,8 @@ window.HUAONE_MEMBERS = [
    "本週"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1vb9qTe15CZIBgnPm4vEiQQeT72DxmKWmMMxCdafRRE0/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "303",
@@ -1866,7 +1935,8 @@ window.HUAONE_MEMBERS = [
    "堅持有機、產地直送"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ht9otMY9dd_McBiv1h1pY0n-U4cSuj6YcWj9iUWG9G0/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "306",
@@ -1896,7 +1966,8 @@ window.HUAONE_MEMBERS = [
    "巨城門市(籌備中)"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Go-BRpGm3Y_eEAdvv397HmC5MtS6Xiimzb2k8V2F06A/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "307",
@@ -1921,7 +1992,8 @@ window.HUAONE_MEMBERS = [
    "緬因貓/英短/布偶貓 專業培育"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/14W3Us1pAh3BFzd08P1UjKcfTZO9QhDq5_ZqZY0InoRg/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "309",
@@ -1949,7 +2021,8 @@ window.HUAONE_MEMBERS = [
    "各式活動、政府專案規劃執行"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1Hd9m1Ty6rLhro7AZMoPsdm2sf2c3OZh8OY4wTMrzkYc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "313",
@@ -1978,7 +2051,8 @@ window.HUAONE_MEMBERS = [
    "anya@taelor.ai"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1CzB8S8vtab3EBcXOWyC0GQ5q73C2X02I3e22WpZUC7o/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "318",
@@ -2004,7 +2078,8 @@ window.HUAONE_MEMBERS = [
    "可針對海外市場提供寵物漢方原料與生產建議"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1LtOyffd0Ja-cHwrPrFeZgiLWpBKbp2iNAvRAzO-F0IM/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "325",
@@ -2020,7 +2095,8 @@ window.HUAONE_MEMBERS = [
   "want": [],
   "expertise": [],
   "slideUrl": "https://docs.google.com/presentation/d/1Vd9jbEIwNm_EN_xa1EGZ_0AubP1cEQqbUslppxpwQDo/edit",
-  "complete": false
+  "complete": false,
+  "light": "black"
  },
  {
   "no": "327",
@@ -2045,7 +2121,8 @@ window.HUAONE_MEMBERS = [
    "我有一個專門做包裝的IP"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1zFpMT98nGXk_avQo06tXySY3aTx-I3xp6bbctWGFfSY/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "329",
@@ -2073,7 +2150,8 @@ window.HUAONE_MEMBERS = [
    "頭髮是女生的第二張臉，臉上都這麼注重了，頭髮呢？"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1R1AYyVxmFQKEegktjXwyReBuDLH2Lqb4nrKSSPAjkMs/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "330",
@@ -2104,7 +2182,8 @@ window.HUAONE_MEMBERS = [
    "——————————————————————————————"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ubSMXD4R4dFb5hxUG8EB5EkjysXKEPeuB_5A1M2cc9Y/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "347",
@@ -2132,7 +2211,8 @@ window.HUAONE_MEMBERS = [
    "台積電、新光三越等知名企業春酒尾牙使用"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1eAPZPJGl8WYqMlNEt8tZMTmOfCRR5CPC8WTCpHppD14/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "348",
@@ -2159,7 +2239,8 @@ window.HUAONE_MEMBERS = [
    "曾獲設計三大獎項"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ikmMcdiQqshWux86akz_eKzEfxMJObz1cxduqdrgEVg/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "351",
@@ -2183,7 +2264,8 @@ window.HUAONE_MEMBERS = [
    "木工工具機/機械工具機/台灣精品獎 拍攝廠商 拍攝過上百間工廠"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/19FdMd5d-7NkEA2-rcJ3Wp_V_PXjEf8FJB0IfZXST0Ko/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "352",
@@ -2211,7 +2293,8 @@ window.HUAONE_MEMBERS = [
    "穀穀紫蘇籽油"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1B6bDqU5H-ZnUXDrI86j8F9UL0RzSnCP2J9XIqOa5jbA/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "353",
@@ -2237,7 +2320,8 @@ window.HUAONE_MEMBERS = [
    "獲得2025年台中十大伴手禮好禮標章"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1oum92gQgsjggGzCfZmdEDbr650IpSv1-iC5KcNsdbAA/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "354",
@@ -2264,7 +2348,8 @@ window.HUAONE_MEMBERS = [
    "旭川四季體驗品牌，客製化行程安排"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1wG_kCFHlayIEM37PzeX-YE8HLr9yP55s0_kl02Ejlkg/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "355",
@@ -2289,7 +2374,8 @@ window.HUAONE_MEMBERS = [
    "講師成就：2020台北金融博覽會 受邀講者"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1fr76G5Ys1VmkmEAqAz3V-W0RT0ZwZJxLd1GHGZclP-c/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "357",
@@ -2314,7 +2400,8 @@ window.HUAONE_MEMBERS = [
    "———————————————————————————————"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1UTqSQGjMJ70pWktbJ7_MBzvCDWV63m7ymjvCrJ7lMyQ/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "359",
@@ -2342,7 +2429,8 @@ window.HUAONE_MEMBERS = [
    "✅ 一條龍服務：直播組銷售輔助＋品牌全程對接"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1d8EPSLrOjCWc3Elrc3KEuzak8aaCiXLkwuRaXKd2V9Y/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "360",
@@ -2369,7 +2457,8 @@ window.HUAONE_MEMBERS = [
    "成功為當事人爭取4,700萬元離婚財產分配"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/17OJ-qeKIaCiWwJHM2RVhBjIhYvh0qFHlgTrTUqDzfZw/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "362",
@@ -2399,7 +2488,8 @@ window.HUAONE_MEMBERS = [
    "調理包，西式風味純素食品"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/100P-71SkRY6JmJZHR3rTcJVRg3me8MDu67PdKPYZs60/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "363",
@@ -2425,7 +2515,8 @@ window.HUAONE_MEMBERS = [
    "公司商號的營業稅、營所稅各項營業用稅目申報"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1qSDC8BWg1CRJocppNDKBZ3tJM-NExHyjTQNuftcrf4w/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "366",
@@ -2451,7 +2542,8 @@ window.HUAONE_MEMBERS = [
    "從零導入與低痛感切換／升級，都能快速上手"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1j5t1V07deJ3kcfOhrr_97Wj8v2dWnqpCRjwyUd5Ccpc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "368",
@@ -2478,7 +2570,8 @@ window.HUAONE_MEMBERS = [
    "韓國寢具家居品牌業務推廣"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1DM-uhVPggUkX_xAJkNWYdlXcd8onSSGJx5nsWTfqjys/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "369",
@@ -2505,7 +2598,8 @@ window.HUAONE_MEMBERS = [
    "日本NANOBEST光觸媒大廠台灣獨家代理"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1cPP-LWV0uz4ynJfOuzHqksrDXkryJ0_Jo1w7j_6ayFI/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "370",
@@ -2530,7 +2624,8 @@ window.HUAONE_MEMBERS = [
    "我是Paul楊，楊博盛，洛杉磯地產大師！CCIM 國際認證不動產投資師，每年兩千萬美元的營業額，專精美國洛杉磯地區的不動產投資買賣，20餘年的經驗，舉凡住家、倉庫、辦公樓、或零售商場，買賣或包租代管，提供一站式服務"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1lK6V9-BVnO4BnvmpOl89amwxyAVk2P5vhjOBRCT4-Xc/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "372",
@@ -2557,7 +2652,8 @@ window.HUAONE_MEMBERS = [
    "———————————————————————————————"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1L2ioyCAGzQskPM22PV1o2b1pmxF9qkDPjw7jtdGJz_o/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "374",
@@ -2579,7 +2675,8 @@ window.HUAONE_MEMBERS = [
    "工廠直營：小型輸出，大型輸出，小張貼紙，大張貼紙，小的招牌，大的招牌，金色背板，銀色背板。活動，展場，開店，隨時能幫你客製化報價。一條龍服務，含施工，結構規劃，設計。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/17S7jUegvj-nGgIetbWpDu24bJIrB6oQZggM_2fRZlgw/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "377",
@@ -2604,7 +2701,8 @@ window.HUAONE_MEMBERS = [
    "打造流量護城河，守住客戶。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ddNApwl9XPSNKs1x8tCoyzeoG5pLzjZDWxkv-aNcsnI/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "378",
@@ -2629,7 +2727,8 @@ window.HUAONE_MEMBERS = [
    "皮膚調理"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1WfXZA7YKIsnd0wsFkBS99vOfOs-U-RqetN270xGjGG0/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "379",
@@ -2658,7 +2757,8 @@ window.HUAONE_MEMBERS = [
    "曾在竹北大師講堂跟市長對談、宏碁、安達人壽、佳必琪等企業EAP講座"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1sxmUnoLtihUQMzc8N8lKtvYXZtdn6SbzmiD184lnXBQ/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "380",
@@ -2685,7 +2785,8 @@ window.HUAONE_MEMBERS = [
    "整合社群經營、內容生成、電商銷售、線上課程與品牌代言。一個帳號，無限可能。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/16m9T8bzfQuUROGidHyFDkOy2RqMsoD-c5MaJ9oFrMlg/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "381",
@@ -2709,7 +2810,8 @@ window.HUAONE_MEMBERS = [
    "OEM、ODM、customized、wholesale"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1p5u6ymDJu8a1_IKvq-CjM84L5jcEYFCFfanPNq0FfwI/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "382",
@@ -2736,7 +2838,8 @@ window.HUAONE_MEMBERS = [
    "只要跟素食有關的都可提供資源"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1KCLGs3kyhZnYPpCvrAVRbOhWIYuzD3FzwO_B-NN2IJc/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "383",
@@ -2760,7 +2863,8 @@ window.HUAONE_MEMBERS = [
    "從測試、導入到供應，建立可被複製、可持續的原料使用與管理模式"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/18-RoeUWsJ_Ovqj0UwObgmd3Q8rTmZ216-_XVsZestUU/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "384",
@@ -2788,7 +2892,8 @@ window.HUAONE_MEMBERS = [
    "通路導入、代理推廣"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1DZdqyZlIER17_-AMgKcYjNQyctd5cDWEniXYZhHoK3Q/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "385",
@@ -2813,7 +2918,8 @@ window.HUAONE_MEMBERS = [
    "原生家庭清理、業力溝通、金錢卡關清理"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/110e_UJrWIGXgaWKun1bKqDjqKxcNV1OQN86TOKQ6aZU/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "386",
@@ -2843,7 +2949,8 @@ window.HUAONE_MEMBERS = [
    "擅長議題操作的整合行銷"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1vaGEyDQcObMI4tJfjZ0nWd0Em5UjJkxLP03LOBgPRLc/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "388",
@@ -2867,7 +2974,8 @@ window.HUAONE_MEMBERS = [
    "以「數位演練」取代說教，減少 80% 員工訓練成本"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1IF6lH8DRXx7dVKLSWrCcVE2jRm4Rt2rZn_vvvOpBDPI/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "389",
@@ -2895,7 +3003,8 @@ window.HUAONE_MEMBERS = [
    "台灣陶藝家餐皿"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1mpJLY-TGeelBdjR-ihymkOyneRRQp8xfb1P9PuX4TjE/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "390",
@@ -2923,7 +3032,8 @@ window.HUAONE_MEMBERS = [
    "遠距健康管理師"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1TuY6YkG_grHYvLNtsmrjZJSzdhztpu8nkfA1lHloBqU/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "391",
@@ -2947,7 +3057,8 @@ window.HUAONE_MEMBERS = [
    "兼任台南民宿室內軟裝設計師"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1salmDQHafbi9WFcPVxHoHFBtj3jiLsJPN1MC-xqAyb4/edit",
-  "complete": true
+  "complete": true,
+  "light": "red"
  },
  {
   "no": "392",
@@ -2973,7 +3084,8 @@ window.HUAONE_MEMBERS = [
    "協助亞洲品牌進入美國零售與市場"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1iry5p8KBQ0LEgJF7ZyPhIxubKCxIHnL-UH0GFE7bQbU/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "393",
@@ -3003,7 +3115,8 @@ window.HUAONE_MEMBERS = [
    "代表銀樓產業榮獲總統接見、行政院院長授證表揚。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/12-_K86F4WX6_FVmkPeIG-dqVzzhhh0U5pXRiT8C4WR4/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "394",
@@ -3032,7 +3145,8 @@ window.HUAONE_MEMBERS = [
    "Podcast：「Marisa心之回音」。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1-MlATK_nZQrvclDFLW9MfphNcC5MMYkDUgyeCYjzJZ0/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "395",
@@ -3056,7 +3170,8 @@ window.HUAONE_MEMBERS = [
    "二，協助醫師正常報稅.補齊開業醫師複合稅率22 %到24 %的缺口。"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1rgYEvoHklCPLdH7g6h7Mjl0iTkmSDNJI08q_qRDX8Xw/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "396",
@@ -3081,7 +3196,8 @@ window.HUAONE_MEMBERS = [
    "2024中華奧林匹克盃不凋花組-亞軍"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1eEDXibyk7lKqA6PB9gwirkOkVQHjD1t-juAWx8xapmc/edit",
-  "complete": true
+  "complete": true,
+  "light": "yellow"
  },
  {
   "no": "397",
@@ -3113,7 +3229,8 @@ window.HUAONE_MEMBERS = [
    "⦿ 將傳統市場店面全面系統化 數位轉型營收成功翻倍"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ds4PMxty0olg88OnI9plYfLvBcUjoSyOZLNMvUlIByA/edit",
-  "complete": true
+  "complete": true,
+  "light": "green"
  },
  {
   "no": "398",
@@ -3139,7 +3256,8 @@ window.HUAONE_MEMBERS = [
    "準備10月份白晝之夜在圓山的市集活動"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/18h7p_UcZ5GPru5okn77nC7igZvK_ZVlLQLwupPJ9NQY/edit",
-  "complete": true
+  "complete": true,
+  "light": "black"
  },
  {
   "no": "399",
@@ -3167,7 +3285,8 @@ window.HUAONE_MEMBERS = [
    "客群為貴婦/富二代/藝人/金融圈"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1QE1UJX2UK_ubeyxuRK1MBzGpryS4ri2lPdIpyp0euVE/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  },
  {
   "no": "400",
@@ -3195,7 +3314,8 @@ window.HUAONE_MEMBERS = [
    "打造華語圈 Plant-based Community"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1e-Ub7CchaEKKYGCHYYH0GAuy2wG4zB5jUBNtbSvo_dc/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  },
  {
   "no": "401",
@@ -3224,6 +3344,7 @@ window.HUAONE_MEMBERS = [
    "自媒體實戰｜短影音、直播、Podcast、活動企劃"
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1jmEUpCSgfxEHgcTSxVgenfUNmfjHxh-bwwkYMROjtgM/edit",
-  "complete": true
+  "complete": true,
+  "light": null
  }
 ];
