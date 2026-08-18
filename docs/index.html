@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BNI 華One分會｜三層引薦名冊</title>
+<meta name="description" content="華One分會成員三層引薦名冊 — 一般引薦、理想引薦、夢幻引薦一次查詢，資料同步自分會簡報雲端資料夾。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">華One</span>
+      <span class="brand-sub">BNI 分會</span>
+    </a>
+    <nav class="nav">
+      <a class="nav-link is-active" href="#directory">成員名冊</a>
+      <a class="nav-link" href="#stats">產業分佈</a>
+      <a class="nav-link" href="#about">資料說明</a>
+    </nav>
+    <a class="btn-primary" id="sourceLink" href="#" target="_blank" rel="noopener">原始簡報資料夾</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="page">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <div class="wrap">
+
+      <div class="hero">
+        <span class="eyebrow">HUA ONE REFERRAL DIRECTORY</span>
+        <h1>華One分會三層引薦名冊</h1>
+        <p class="lede">
+          本名冊直接由分會簡報雲端資料夾解析而成，把每位夥伴的
+          <strong>一般引薦、理想引薦、夢幻引薦</strong>攤開在同一頁，
+          讓你在會前一分鐘內找到今天該幫誰、該找誰。
+        </p>
+      </div>
+
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-num" id="statTotal">—</span><span class="stat-label">分會成員</span></div>
+        <div class="stat"><span class="stat-num" id="statComplete">—</span><span class="stat-label">已填三層引薦</span></div>
+        <div class="stat"><span class="stat-num" id="statCats">—</span><span class="stat-label">產業分類</span></div>
+        <div class="stat"><span class="stat-num" id="statUpdated">—</span><span class="stat-label">資料更新日</span></div>
+      </div>
+
+      <div class="controls" id="directory">
+        <div class="search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          <input type="text" id="q" placeholder="搜尋姓名、專業別、公司，或三層引薦內容…" autocomplete="off">
+        </div>
+        <div class="chips" id="chips"></div>
+        <div class="result-line"><span id="resultCount"></span></div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="directory">
+          <thead>
+            <tr>
+              <th class="col-no">編號</th>
+              <th class="col-name">姓名</th>
+              <th class="col-trade">專業別</th>
+              <th class="col-company">代表公司</th>
+              <th class="col-cat">產業分類</th>
+              <th class="col-chev"></th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p class="empty" id="empty" hidden>找不到符合的夥伴，換個關鍵字試試。</p>
+      </div>
+
+      <section class="about" id="about">
+        <span class="eyebrow">DATA NOTE</span>
+        <h2>資料怎麼來的</h2>
+        <ul>
+          <li>每位夥伴的欄位直接解析自分會 Google Drive 裡的個人簡報，沒有人工改寫內容。</li>
+          <li>「產業分類」是為了方便篩選、用專業別關鍵字自動推導出來的，不是分會的正式分組。</li>
+          <li>簡報裡三層引薦仍是空白的夥伴，這裡會顯示「未填寫」，不會替他補字。</li>
+          <li>要更新資料，重跑 <code>scripts/fetch → parse → build</code> 即可重新同步一次。</li>
+        </ul>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>BNI 華One分會 — 三層引薦名冊</span>
+    <span id="footMeta"></span>
+  </div>
+</footer>
+
+<script src="data/members.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

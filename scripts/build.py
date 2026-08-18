@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""把 members.json 加上自動產業分類，輸出網站用的 site/data/members.js"""
+import json, re, os, datetime
+
+# 自動產業分類：先用「專業別」比對，再退回公司名／我的專業。
+# 這是為了做篩選而推導出來的欄位，不是分會官方分組。
+CATEGORIES = [
+    ("金融保險", r"保險|金融|理財|投資|債券|票據|基金|貸款|房貸|財務規劃|會計|記帳|報稅|節稅|信託|資產管理|壽險"),
+    ("醫療健康", r"醫療|醫師|健康|保健|養生|長照|銀髮|樂齡|藥局|藥師|牙醫|診所|復健|營養|酵素|身心|舒壓|療癒|檢測"),
+    ("美容美業", r"美容|美業|美甲|美學|彩妝|美髮|髮型|皮膚|醫美|造型|保養|香氛|SPA"),
+    ("教育顧問", r"顧問|教育|培訓|講師|教練|課程|教學|職涯|命理|塔羅|生肖|姓名學|占|能量|學習|補習|親子教育|訓練"),
+    ("行銷傳媒", r"行銷|影音|短影音|攝影|影像|拍攝|媒體|直播|網紅|KOL|廣告|公關|社群|品牌|設計|文案|SEO|電商|導演|主持|剪輯|IP|策展|活動企劃|印刷|輸出"),
+    ("科技數位", r"AI|人工智慧|科技|資訊|系統|軟體|雲端|資安|網路|網站|數位|平台|開發|自動化|智慧製造|工程師|IT|SaaS|投影|通訊|機器人"),
+    ("建築居家", r"建築|裝潢|裝修|室內|房地產|不動產|仲介|建商|鍍膜|寢具|家居|家具|清潔|水電|驗屋|居家|空間|營造|工程"),
+    ("食品餐飲", r"食品|餐飲|餐廳|烘焙|甜點|西點|咖啡|素食|蔬食|無肉|植物肉|天貝|乳酪|橄欖油|紫蘇|醬料|湯底|水產|海鮮|燕麥|冰淇淋|美食|外燴|餐車|製麵|農場|農|腰果|柚|茶|酒|飲品|零食|即食|廚"),
+    ("貿易製造", r"貿易|製造|工廠|代工|OEM|ODM|批發|供應商|經銷|進口|外銷|出口|物流|運通|機械|能源|環保|節能|回收|材料|包裝|五金|化工"),
+    ("生活零售", r"飾品|服飾|鞋|家用|禮品|禮贈品|選物|文具|寵物|團購|通路|零售|電器|生活用品"),
+    ("專業服務", r"律師|法律|會計師|地政|人資|勞資|旅遊|旅行|活動|翻譯|保全|徵信|媒合|經紀|保母|整理|婚禮"),
+]
+
+
+def categorize(m):
+    for hay in (m.get("trade", ""),
+                m.get("company", ""),
+                " ".join(m.get("expertise", [])[:2])):
+        if not hay.strip():
+            continue
+        for name, pat in CATEGORIES:
+            if re.search(pat, hay, re.I):
+                return name
+    return "其他"
+
+
+def main():
+    members = json.load(open("data/members.json", encoding="utf-8"))
+    out = []
+    for m in members:
+        t = m["tiers"]
+        out.append({
+            "no": m["no"],
+            "name": m["name"],
+            "nickname": m["nickname"],
+            "trade": m["trade"],
+            "company": m["company"],
+            "category": categorize(m),
+            "basic": t["basic"],
+            "ideal": t["ideal"],
+            "dream": t["dream"],
+            "have": m["have"],
+            "want": m["want"],
+            "expertise": m["expertise"],
+            "slideUrl": m["slideUrl"],
+            "complete": bool(t["basic"] or t["ideal"] or t["dream"]),
+        })
+    out.sort(key=lambda m: (m["no"], m["name"]))
+
+    os.makedirs("docs/data", exist_ok=True)
+    meta = {
+        "updated": datetime.date.today().isoformat(),
+        "total": len(out),
+        "complete": sum(1 for m in out if m["complete"]),
+        "categories": sorted({m["category"] for m in out},
+                             key=lambda c: -sum(1 for m in out if m["category"] == c)),
+        "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
+    }
+    with open("docs/data/members.js", "w", encoding="utf-8") as f:
+        f.write("window.HUAONE_META = ")
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+        f.write(";\nwindow.HUAONE_MEMBERS = ")
+        json.dump(out, f, ensure_ascii=False, indent=1)
+        f.write(";\n")
+
+    counts = {}
+    for m in out:
+        counts[m["category"]] = counts.get(m["category"], 0) + 1
+    print(f"built docs/data/members.js — {len(out)} 位成員")
+    for c, n in sorted(counts.items(), key=lambda kv: -kv[1]):
+        print(f"  {c}: {n}")
+
+
+if __name__ == "__main__":
+    main()
