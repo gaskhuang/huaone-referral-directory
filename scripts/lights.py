@@ -106,6 +106,13 @@ def main():
         "thresholds": {"green": GT, "yellow": YT, "red": RT},
         "lights": out,
     }
+    # 安全閘：來源頁改格式或分會名稱改字（華one → 華One）時，比對數會崩掉。
+    # 這時候寧可整批失敗，也不要讓 build.py 拿空燈號把 112 位的燈號全洗掉。
+    floor = int(len(members) * 0.6)
+    if len(out) < floor:
+        sys.exit(f"只比對到 {len(out)} 位，低於安全下限 {floor}，"
+                 f"來源頁可能改格式或分會名稱變了，不覆寫 data/lights.json")
+
     json.dump(payload, open("data/lights.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 

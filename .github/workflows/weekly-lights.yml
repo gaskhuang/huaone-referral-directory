@@ -1,0 +1,51 @@
+name: 每週更新紅綠燈
+
+# 紅綠燈來源是公開網頁，不需要任何憑證，所以這段可以完全跑在 GitHub 上。
+# 簡報內容那半需要 Google 授權，留在本機／Mac mini 用 scripts/update.sh 跑。
+on:
+  schedule:
+    - cron: "0 22 * * 0"   # 每週一 06:00 台北時間（UTC 週日 22:00）
+  workflow_dispatch:        # 也可以在 Actions 頁面手動觸發
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-lights
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取紅綠燈報告
+        run: python3 scripts/lights.py
+
+      - name: 重新產生網站資料
+        run: python3 scripts/build.py
+
+      - name: 確認沒有把分數或排名寫進網站資料
+        run: |
+          if grep -qE 'lightScore|lightRank|lightPrev|lightNew' docs/data/members.js; then
+            echo "::error::members.js 出現個人分數或排名，來源報告載明不得對外散布，中止部署"
+            exit 1
+          fi
+          echo "檢查通過：只有燈號顏色"
+
+      - name: 有變動才 commit
+        run: |
+          if git diff --quiet docs/data/members.js; then
+            echo "燈號沒有變動，不需要部署"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/members.js
+          git commit -m "每週更新紅綠燈燈號 $(date -u '+%Y-%m-%d')"
+          git push

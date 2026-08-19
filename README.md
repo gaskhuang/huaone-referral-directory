@@ -26,13 +26,30 @@ data/
 
 ## 更新資料
 
-需要先安裝並登入 [`gws`](https://github.com/) CLI（Google Workspace CLI）與 `jq`。
+更新分成兩半，因為兩者的憑證需求完全不同。
+
+### 簡報內容（需要 Google 授權 → 本機跑）
 
 ```bash
-./scripts/fetch.sh && python3 scripts/parse.py && python3 scripts/lights.py && python3 scripts/build.py
+./scripts/update.sh          # 抓取 → 解析 → 燈號 → 產生 → 有變動才 push
+./scripts/update.sh --dry    # 只更新本機，不 commit 不 push
+./scripts/update.sh --force  # 整批重抓簡報，不看快取
 ```
 
-`fetch.sh` 會跳過已抓過的檔案，要強制重抓就先清掉 `data/raw/`。
+`fetch.sh` 會比對 Drive 的 `modifiedTime`，只重抓真的動過的簡報。夥伴每週都在改
+本週我有／我要，所以這個增量判斷是必要的——沒異動時整輪 8 秒跑完。
+
+需要 [`gws`](https://github.com/) CLI（Google Workspace CLI）已登入，以及 `jq`。
+
+### 紅綠燈（不需憑證 → GitHub Actions 每週自動跑）
+
+`.github/workflows/weekly-lights.yml` 每週一早上 6 點（台北時間）自動跑
+`lights.py` + `build.py` 並 push。來源是公開網頁，不需要任何 secret。
+
+**為什麼簡報那半不放 GitHub Actions**：本機 `gws` 的 OAuth token 有 14 個 scope，
+包含 `gmail.modify` 與完整 `drive` 寫入權。把它放進公開 repo 的 Secrets，等於讓一組
+能讀寫整個 Gmail 的憑證住在 CI 裡。要搬上去的話得先另外開一組只有
+`drive.readonly` + `presentations.readonly` 的憑證，而不是沿用這一組。
 
 ## 本機預覽
 
