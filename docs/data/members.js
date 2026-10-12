@@ -1,5 +1,5 @@
 window.HUAONE_META = {
- "updated": "2026-10-05",
+ "updated": "2026-10-12",
  "total": 118,
  "complete": 114,
  "categories": [
@@ -17,9 +17,9 @@ window.HUAONE_META = {
   "其他"
  ],
  "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
- "lightSource": "https://bninwb.autolab.cloud/202608/me.html",
- "lightPeriod": "2026-03-01 - 2026-08-31 (6個月)",
- "lightMatched": 115
+ "lightSource": "https://bninwb.autolab.cloud/202609/me.html",
+ "lightPeriod": "2026-04-01 - 2026-09-30 (6個月)",
+ "lightMatched": 100
 };
 window.HUAONE_MEMBERS = [
  {
@@ -74,7 +74,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1J4UYqHwO6Ektdlxreq_hiCepeKE5hyxGKKlBwEs1F9A/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "green"
  },
  {
   "no": "003",
@@ -100,7 +100,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1blfIqF-qRrCTqJ5kkiDtQYFXJ1CLMThIOK4Sch203DY/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "red"
  },
  {
   "no": "004",
@@ -186,7 +186,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1MEcj35BQwJpTvbNdOER1ZYAqohBA98gUXolniGAwlF8/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "016",
@@ -245,7 +245,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/11tvKsMmMPtBiuv8GFtmPtpwLADZ53dma3dvqgCAXYdg/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "025",
@@ -270,7 +270,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1s8SyYn04cbpgwl2lR-9FDLoOek4FFia71VnQlFysb2Y/edit",
   "complete": true,
-  "light": "black"
+  "light": "red"
  },
  {
   "no": "044",
@@ -297,7 +297,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1mSwofFMZEVj0o0lEZ76rQhU2QZqQudOZiqOBF0yeNqs/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "053",
@@ -356,7 +356,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JrFaNNd_yPKOe2ZYpbn0BYY-EO9f8GqOR2kB8tLUVXM/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "069",
@@ -472,7 +472,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/15Y0D1R-I09hW2WYUaqBi72PyKc1xgHWNkaaamYA9L_4/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "078",
@@ -500,7 +500,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ggDru8moYqlgG2r3nAKRRMC_emhZ9WYlmsBUv47VQe0/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "081",
@@ -531,7 +531,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1v4xl4dNbP3S6VkltamYY2Bu2u4z6UhfepojSoPIQ-p4/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "083",
@@ -561,7 +561,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1JIxYu5HFSphLJmkct22pN6KuVmUhfI7TLR1f7Y_0NnY/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "091",
@@ -591,7 +591,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1iaT2AOcs-FbJU08DH4LNMFgWFibIqYQmk5JOifvXfFk/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "093",
@@ -737,7 +737,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1EdFu8SQO5aguCBt5oxKLlIQoZWLcuUlCvhBLEUPIQHs/edit",
   "complete": false,
-  "light": "black"
+  "light": null
  },
  {
   "no": "124",
@@ -764,7 +764,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1gXZJ4-TUu6OWhh5n_F102uWOyjgeQoAfkd6p0veW-Bc/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "128",
@@ -793,7 +793,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1A5Rqxw4TR6xjLueOgoIwoKhBh-aCFxeb14KgA06I-q4/edit",
   "complete": true,
-  "light": "red"
+  "light": null
  },
  {
   "no": "130",
@@ -887,7 +887,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1aWmnRuA6CEaJ_1au-N9x1gGJAqOaSCpo9Bg1kQua7YI/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "146",
@@ -1025,7 +1025,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1YD4Le-wi-mjKhZA53sU9SY-GO7xcEKYFQpizZxrrM8g/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "174",
@@ -1138,7 +1138,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1T2oWIU2G0pXdMX59KJXMq0Vk6HAGRd73nG4zDvmzeGc/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "189",
@@ -1198,7 +1198,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1t8vxKGeZ55CFBs0Qbe7KQAZghzgjtAq6jGxC9wWF1u8/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "red"
  },
  {
   "no": "192",
@@ -1251,7 +1251,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1PjWwkGS84XsUKsTT5Vdh9muuLHK7EiVkIoLbE-bB8zk/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "196",
@@ -1283,7 +1283,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1G77b5tfdgf5y9drUWjDJiSD8W0o9j0OUoyLa9H52GwE/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "197",
@@ -1477,7 +1477,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1XoBhtBVZW4Spc_2FBptJvbO7-9alHxLrh8pARIB0GWk/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "218",
@@ -1703,7 +1703,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/18aWPOej9Gj9eLGU0YK8Pf1gvt3ICAYNA30CaShyGpws/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "266",
@@ -1850,7 +1850,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1p2QTKEYdfLQ_ovmzjeDITOrtkJ_vXZwXogctaKJi3l4/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "286",
@@ -2096,7 +2096,7 @@ window.HUAONE_MEMBERS = [
   "expertise": [],
   "slideUrl": "https://docs.google.com/presentation/d/1Vd9jbEIwNm_EN_xa1EGZ_0AubP1cEQqbUslppxpwQDo/edit",
   "complete": false,
-  "light": "black"
+  "light": null
  },
  {
   "no": "327",
@@ -2122,7 +2122,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1zFpMT98nGXk_avQo06tXySY3aTx-I3xp6bbctWGFfSY/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "329",
@@ -2240,7 +2240,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ikmMcdiQqshWux86akz_eKzEfxMJObz1cxduqdrgEVg/edit",
   "complete": true,
-  "light": "black"
+  "light": "red"
  },
  {
   "no": "351",
@@ -2294,7 +2294,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1B6bDqU5H-ZnUXDrI86j8F9UL0RzSnCP2J9XIqOa5jbA/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "353",
@@ -2401,7 +2401,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1UTqSQGjMJ70pWktbJ7_MBzvCDWV63m7ymjvCrJ7lMyQ/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "359",
@@ -2728,7 +2728,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1WfXZA7YKIsnd0wsFkBS99vOfOs-U-RqetN270xGjGG0/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "379",
@@ -2919,7 +2919,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/110e_UJrWIGXgaWKun1bKqDjqKxcNV1OQN86TOKQ6aZU/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "red"
  },
  {
   "no": "386",
@@ -2975,7 +2975,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1IF6lH8DRXx7dVKLSWrCcVE2jRm4Rt2rZn_vvvOpBDPI/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "389",
@@ -3171,7 +3171,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1rgYEvoHklCPLdH7g6h7Mjl0iTkmSDNJI08q_qRDX8Xw/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "396",
@@ -3197,7 +3197,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1eEDXibyk7lKqA6PB9gwirkOkVQHjD1t-juAWx8xapmc/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "397",
@@ -3286,7 +3286,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1QE1UJX2UK_ubeyxuRK1MBzGpryS4ri2lPdIpyp0euVE/edit",
   "complete": true,
-  "light": "black"
+  "light": "yellow"
  },
  {
   "no": "400",
@@ -3345,6 +3345,6 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1jmEUpCSgfxEHgcTSxVgenfUNmfjHxh-bwwkYMROjtgM/edit",
   "complete": true,
-  "light": "black"
+  "light": "red"
  }
 ];
