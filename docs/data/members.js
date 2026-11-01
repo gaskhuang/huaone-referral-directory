@@ -1,5 +1,5 @@
 window.HUAONE_META = {
- "updated": "2026-10-25",
+ "updated": "2026-11-01",
  "total": 118,
  "complete": 114,
  "categories": [
