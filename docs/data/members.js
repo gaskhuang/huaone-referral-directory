@@ -1,5 +1,5 @@
 window.HUAONE_META = {
- "updated": "2026-11-01",
+ "updated": "2026-11-08",
  "total": 118,
  "complete": 114,
  "categories": [
@@ -17,9 +17,9 @@ window.HUAONE_META = {
   "其他"
  ],
  "driveUrl": "https://drive.google.com/drive/folders/1iytHoLg1dH42tUC3GkN1b7mHhG6lgJXE",
- "lightSource": "https://bninwb.autolab.cloud/202609/me.html",
- "lightPeriod": "2026-04-01 - 2026-09-30 (6個月)",
- "lightMatched": 100
+ "lightSource": "https://bninwb.autolab.cloud/202610/me.html",
+ "lightPeriod": "2026-05-01 - 2026-10-31 (6個月)",
+ "lightMatched": 98
 };
 window.HUAONE_MEMBERS = [
  {
@@ -44,7 +44,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1DI55xtHaEMXRyDjaFa6BlFc3iUI_TgYo-6tQAvRObmg/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "green"
  },
  {
   "no": "002",
@@ -74,7 +74,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1J4UYqHwO6Ektdlxreq_hiCepeKE5hyxGKKlBwEs1F9A/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "003",
@@ -129,7 +129,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1KCSa5VUT4xotmVkjIKYeY6mz9NpbwBKDno1JZviBlNk/edit",
   "complete": false,
-  "light": "black"
+  "light": "red"
  },
  {
   "no": "006",
@@ -649,7 +649,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1NNcbHOCbP2dSj7ZMTDBtcvRszqJ4ahTQ8hdCXHHHVoA/edit",
   "complete": true,
-  "light": "green"
+  "light": "yellow"
  },
  {
   "no": "116",
@@ -1450,7 +1450,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1mOQrGmPmox0zxgZGj6b_2E99E7WmcwauVPpu9NhNpH0/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "216",
@@ -1477,7 +1477,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1XoBhtBVZW4Spc_2FBptJvbO7-9alHxLrh8pARIB0GWk/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "red"
  },
  {
   "no": "218",
@@ -1508,7 +1508,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1PaT4uQV8izfg1Zar9utABAf3UFpM9bv9Iendww5R4UQ/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "221",
@@ -1703,7 +1703,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/18aWPOej9Gj9eLGU0YK8Pf1gvt3ICAYNA30CaShyGpws/edit",
   "complete": true,
-  "light": "yellow"
+  "light": "green"
  },
  {
   "no": "266",
@@ -1881,7 +1881,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/17p1g8iljKk0tw3huSiNVmhgZLOqlSTxGqQtHghDlAi8/edit",
   "complete": true,
-  "light": "black"
+  "light": "red"
  },
  {
   "no": "291",
@@ -2151,7 +2151,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1R1AYyVxmFQKEegktjXwyReBuDLH2Lqb4nrKSSPAjkMs/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "330",
@@ -2294,7 +2294,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1B6bDqU5H-ZnUXDrI86j8F9UL0RzSnCP2J9XIqOa5jbA/edit",
   "complete": true,
-  "light": "black"
+  "light": "red"
  },
  {
   "no": "353",
@@ -2516,7 +2516,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1qSDC8BWg1CRJocppNDKBZ3tJM-NExHyjTQNuftcrf4w/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "366",
@@ -2702,7 +2702,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1ddNApwl9XPSNKs1x8tCoyzeoG5pLzjZDWxkv-aNcsnI/edit",
   "complete": true,
-  "light": "red"
+  "light": "black"
  },
  {
   "no": "378",
@@ -2728,7 +2728,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1WfXZA7YKIsnd0wsFkBS99vOfOs-U-RqetN270xGjGG0/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "379",
@@ -3085,7 +3085,7 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1iry5p8KBQ0LEgJF7ZyPhIxubKCxIHnL-UH0GFE7bQbU/edit",
   "complete": true,
-  "light": "black"
+  "light": null
  },
  {
   "no": "393",
@@ -3345,6 +3345,6 @@ window.HUAONE_MEMBERS = [
   ],
   "slideUrl": "https://docs.google.com/presentation/d/1jmEUpCSgfxEHgcTSxVgenfUNmfjHxh-bwwkYMROjtgM/edit",
   "complete": true,
-  "light": "red"
+  "light": "yellow"
  }
 ];
